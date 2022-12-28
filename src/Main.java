@@ -6,14 +6,15 @@ public class Main {
 
         }
             public static void main(String[] args) {
-                System.out.println(isPalindrome("anna")); // true
-                System.out.println(isPalindrome("forest")); // false
+                System.out.println(isPalindrome("комок"));
+                System.out.println(isPalindrome("ротор"));
             }
             public static boolean isPalindrome(String str) {
                 return str.equalsIgnoreCase(new StringBuffer(str).reverse().toString());
-                //переворачиваем строку  и сравниваем с изначальной строкой
+
             }
         }
+
 
 
 
